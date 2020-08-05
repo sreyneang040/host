@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.auth__body {
+  padding-bottom: 2rem;
+  padding-top: 200px;
+}
+.auth__form {
+  min-width: 280px;
+  max-width: 340px;
+  margin: auto;
+  margin-top: -40px;
+  padding: 0 10px;
+  position: relative;
+  z-index: 9;
+}
+.auth__form_body {
+  padding: 0.7rem 1.5rem 35px;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.auth__form_title {
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+.auth__form_actions {
+  text-align: center;
+  padding: 0 2rem;
+  margin-top: -25px;
+}
+.auth__form_actions .btn {
+  border-radius: 30px;
+  box-shadow: 0 2px 12px rgba(50, 128, 228, 0.5);
+}
+
+.closeModal {
+  cursor: pointer;
+}
+
+
+.hide {
+  opacity: 0;
+}
+
+.mt-10 {
+  margin-top: 100px !important;
+}
+.topnav-right {
+  float: right;
+}
+.imgProfile{
+  width: 100px
+}
+
+.image-upload > input
+{
+    display: none;
+}
+.image-upload i
+{
+  cursor: pointer;
+ 
+}
+.image-upload 
+{
+  margin-left: 50px;
+  
+}
+.updateProfile {
+  all: unset;
+  outline:none;
+}
+.btnUpdateProfile{
+
+  margin-top: 130%;
+}
+ 
+
+ /* button search event */
+/* test search */
+.search_event {
+  width: 100%;
+  padding-left: 2rem;
+  border-radius: 20px;
+}
+
+.form-control-feedback {
+  position: absolute;
+  width: 2.375rem;
+  text-align: center;
+  color: rgb(56, 55, 55);
+  margin-top: 8px;
+}
+
+/* Catagory  */
+.edit_hover_class a{
+  visibility:hidden;
+}
+.edit_hover_class:hover a {
+ visibility:visible;
+}
+
+ /* hide icon delete on event view */
+.deleteEvent{
+  display: none;
+  cursor: pointer;
+}
+
+/* background hover on event view */
+tbody>tr:hover, tbody>tr:active{background-color: rgb(214, 205, 205);}
+
+/* Display icon delete on event view */
+.info:hover .deleteEvent {
+ display:block;  
+ font-size: 130%; 
+}
+
+/* your event  */
+.eventImg {
+  width: 120px;
+}
+.cancel {
+  margin-left: 130px;
+}
+.eventCard {
+  margin-top: 170px;
+}
+
+/* show explore  */
+.img-explore{
+  background-color: red;
+  width: 100px;
+}
+.card-explore{
+  border-radius: 30px;
+}
+.border-input{
+  border-radius: 15px;
+}
+.form-control:focus {
+  outline: 0 !important;
+  border-color: initial;
+  box-shadow: none;
+}
+.btn-border{
+  width: 50px;
+  height: 38px;
+}
+.modal-explore{
+  width: 700px;
+}
+
+/* calendar */
+#calendar {
+  max-width: 560px;
+  margin: 0 auto;
+}
+.clearfix::after,
+.calendar ol::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ================
+Calendar Styling */
+.calendar {
+  border-radius: 10px;
+}
+
+.month {
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  .month {
+    font-size: 3.5rem;
+  }
+}
+
+.calendar ol li {
+  float: left;
+  width: 14.28571%;
+}
+
+.calendar .day-names {
+  border-bottom: 1px solid #eee;
+}
+
+.calendar .day-names li {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.calendar .days li {
+  border-bottom: 1px solid #eee;
+  min-height: 8rem;
+}
+
+.calendar .days li .date {
+  margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+  font-size: 0.75rem;
+  padding: 0.4rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4rem;
+  margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2 {
+  width: 200%;
+}
+
+.calendar .days li .event.begin {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event.clear {
+  background: none;
+}
+
+.calendar .days li:nth-child(n+29) {
+  border-bottom: none;
+}
+
+.calendar .days li.outside .date {
+  color: #ddd;
+}
+/* end calendar
+
+/* validate */
+.errors ul li{
+  list-style: none;
+}
+
+/* make our menu go to margin right */
+
+.ml-auto {
+  margin-right: 10%;
+}
+
+/* make all view have a top-down spacing */
+
+.navbar {
+  margin-bottom: 5%;
+}
+.card{
+  margin-bottom: 5%;
+}
